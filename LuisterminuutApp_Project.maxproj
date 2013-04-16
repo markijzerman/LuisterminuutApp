@@ -2,7 +2,7 @@
 	"name" : "LuisterminuutApp_Project",
 	"version" : 1,
 	"creationdate" : -846150165,
-	"modificationdate" : -846084299,
+	"modificationdate" : -846056768,
 	"viewrect" : [ 25.0, 69.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -20,8 +20,8 @@
 				"local" : 1,
 				"toplevel" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Users/markijzerman/Documents/Projects/2012 LUISTERMINUUT/patch/LuisterminuutApp_Project/patchers/mainScreen.maxpat",
-					"projectrelativepath" : "../LuisterminuutApp_Project/patchers/mainScreen.maxpat"
+					"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/patchers/mainScreen.maxpat",
+					"projectrelativepath" : "./LuisterminuutApp_Project/patchers/mainScreen.maxpat"
 				}
 
 			}
@@ -34,19 +34,14 @@
 				"local" : 1
 			}
 ,
-			"wwhtxt(152x56).png" : 			{
+			"empty.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
 ,
-			"empty.jpg" : 			{
+			"wwhtxt(152x56).png" : 			{
 				"kind" : "imagefile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Users/markijzerman/Documents/Projects/2012 LUISTERMINUUT/patch/LuisterminuutApp/lib/empty.jpg",
-					"projectrelativepath" : "../LuisterminuutApp/lib/empty.jpg"
-				}
-
+				"local" : 1
 			}
 ,
 			"geluidenbieb(171x171).png" : 			{
@@ -89,6 +84,11 @@
 				"local" : 1
 			}
 ,
+			"stop(383x383).png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"lm(152x56).png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
@@ -123,23 +123,13 @@
 				"kind" : "imagefile",
 				"local" : 1
 			}
-,
-			"stop(383x383).png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
 
 		}
 ,
 		"code" : 		{
 			"onStart.js" : 			{
 				"kind" : "javascript",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Users/markijzerman/Documents/Projects/2012 LUISTERMINUUT/patch/LuisterminuutApp/lib/onStart.js",
-					"projectrelativepath" : "../LuisterminuutApp/lib/onStart.js"
-				}
-
+				"local" : 1
 			}
 
 		}

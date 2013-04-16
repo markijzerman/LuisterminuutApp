@@ -201,7 +201,7 @@
 										"count" : 2,
 										"data" : [ 											{
 												"key" : 1,
-												"value" : [ 2 ]
+												"value" : [ 0 ]
 											}
 , 											{
 												"key" : 2,
@@ -1590,7 +1590,7 @@
 										"count" : 2,
 										"data" : [ 											{
 												"key" : 1,
-												"value" : [ 2 ]
+												"value" : [ 0 ]
 											}
 , 											{
 												"key" : 2,
@@ -1908,7 +1908,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-37",
-									"items" : [ "Waterkoker", ",", "Trống Cơm" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3230,20 +3230,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "empty.jpg",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/2012 LUISTERMINUUT/patch/LuisterminuutApp/lib",
-				"patcherrelativepath" : "../../LuisterminuutApp/lib",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop(383x383).png",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/2012 LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "geluidenbieb(171x171).png",
 				"bootpath" : "/Users/markijzerman/Documents/Projects/2012 LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
 				"patcherrelativepath" : "../media",
@@ -3301,8 +3287,8 @@
 			}
 , 			{
 				"name" : "onStart.js",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/2012 LUISTERMINUUT/patch/LuisterminuutApp/lib",
-				"patcherrelativepath" : "../../LuisterminuutApp/lib",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/2012 LUISTERMINUUT/patch/LuisterminuutApp_Project/code",
+				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
