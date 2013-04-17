@@ -201,7 +201,7 @@
 										"count" : 2,
 										"data" : [ 											{
 												"key" : 1,
-												"value" : [ 0 ]
+												"value" : [ 6 ]
 											}
 , 											{
 												"key" : 2,
@@ -461,7 +461,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1814,6 +1813,20 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 175.0, 292.0, 56.0, 20.0 ],
+									"text" : "delay 10"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-13",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -2016,7 +2029,7 @@
 										"count" : 2,
 										"data" : [ 											{
 												"key" : 1,
-												"value" : [ 0 ]
+												"value" : [ 6 ]
 											}
 , 											{
 												"key" : 2,
@@ -2334,7 +2347,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-37",
-									"items" : "<empty>",
+									"items" : [ "Waterkoker", ",", "Trống Cơm" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2374,7 +2387,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 151.166687, 344.636383, 50.0, 20.0 ]
+									"patching_rect" : [ 175.0, 375.636383, 50.0, 20.0 ]
 								}
 
 							}
@@ -2398,7 +2411,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 151.166687, 305.636383, 105.0, 20.0 ],
+									"patching_rect" : [ 175.0, 336.636383, 105.0, 20.0 ],
 									"text" : "value chosenItem"
 								}
 
@@ -2469,7 +2482,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-41", 0 ],
+									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-22", 0 ]
@@ -2565,7 +2578,7 @@
 									"destination" : [ "obj-37", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 160.666687, 412.386353, 225.666687, 412.386353 ],
+									"midpoints" : [ 184.5, 412.386353, 225.666687, 412.386353 ],
 									"source" : [ "obj-39", 0 ]
 								}
 
@@ -2612,6 +2625,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-41", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 0 ]
 								}
 
 							}
@@ -3606,23 +3628,23 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Waterkoker.jpg",
-				"bootpath" : "/Users/markijzerman/Desktop/SoundsPack1",
-				"patcherrelativepath" : "../../../../../../Desktop/SoundsPack1",
+				"name" : "empty.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
+				"patcherrelativepath" : "../media",
 				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stop(383x383).png",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TrongCom.jpg",
 				"bootpath" : "/Users/markijzerman/Desktop/SoundsPack1",
 				"patcherrelativepath" : "../../../../../../Desktop/SoundsPack1",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "empty.jpg",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
-				"patcherrelativepath" : "../media",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
