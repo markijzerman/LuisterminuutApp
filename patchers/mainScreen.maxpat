@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 140.0, 44.0, 1400.0, 1050.0 ],
+		"rect" : [ 140.0, 22.0, 1400.0, 1050.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -17,16 +17,109 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
 		"statusbarvisible" : 0,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
+		"enablehscroll" : 0,
+		"enablevscroll" : 0,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"title" : "LUISTERMINUUT",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 359.75, 192.0, 56.0, 20.0 ],
+					"text" : "delay 20"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-21",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 235.75, 224.162857, 111.0, 51.0 ],
+					"text" : "make sure screen starts at the 0,0 point"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 359.75, 240.662857, 32.5, 18.0 ],
+					"text" : "0 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 359.75, 267.662842, 61.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "onStart.js",
+						"parameter_enable" : 0
+					}
+,
+					"text" : "js onStart"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 359.75, 213.848572, 24.0, 20.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 98.70858, 142.5, 47.0, 18.0 ],
+					"text" : "wclose"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -201,7 +294,7 @@
 										"count" : 2,
 										"data" : [ 											{
 												"key" : 1,
-												"value" : [ 7 ]
+												"value" : [ 8 ]
 											}
 , 											{
 												"key" : 2,
@@ -432,8 +525,8 @@
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -463,6 +556,17 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"comment" : "",
+									"id" : "obj-25",
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 229.0, 146.185715, 25.0, 25.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-17",
@@ -486,70 +590,6 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 166.0, 680.0, 59.5, 20.0 ],
 									"text" : "buddy 4"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bubble" : 1,
-									"bubbleside" : 3,
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"frgb" : 0.0,
-									"id" : "obj-21",
-									"linecount" : 3,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 53.0, 156.5, 111.0, 51.0 ],
-									"text" : "make sure screen starts at the 0,0 point"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-11",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 177.0, 173.0, 32.5, 18.0 ],
-									"text" : "0 0"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-18",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 177.0, 200.0, 61.0, 20.0 ],
-									"saved_object_attributes" : 									{
-										"filename" : "onStart.js",
-										"parameter_enable" : 0
-									}
-,
-									"text" : "js onStart"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-20",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 177.0, 146.185715, 24.0, 20.0 ],
-									"text" : "t b"
 								}
 
 							}
@@ -977,13 +1017,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-28",
-									"linecount" : 4,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 145.0, 735.5, 110.0, 58.0 ],
-									"text" : "window size $3 0 $1 $2, window exec, front, zoomfactor $4"
+									"patching_rect" : [ 145.0, 735.5, 435.0, 18.0 ],
+									"text" : "window flags notitle, window size $3 0 $1 $2, window exec, front, zoomfactor $4"
 								}
 
 							}
@@ -1039,19 +1078,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-20", 0 ],
+									"destination" : [ "obj-25", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-18", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-11", 0 ]
 								}
 
 							}
@@ -1135,15 +1165,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-2", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-20", 0 ]
 								}
 
 							}
@@ -1459,7 +1480,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1808,7 +1828,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2029,7 +2048,7 @@
 										"count" : 2,
 										"data" : [ 											{
 												"key" : 1,
-												"value" : [ 7 ]
+												"value" : [ 8 ]
 											}
 , 											{
 												"key" : 2,
@@ -2347,7 +2366,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-37",
-									"items" : [ "Waterkoker", ",", "Trống Cơm" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2659,7 +2678,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 20.708578, 258.431427, 120.0, 20.0 ],
+					"patching_rect" : [ 35.0, 110.0, 120.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -3506,7 +3525,7 @@
 					"offset" : [ -27.0, -24.0 ],
 					"patching_rect" : [ 173.5, 332.688568, 1024.0, 768.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 1024.0, 768.0 ],
+					"presentation_rect" : [ -0.359974, -1.702856, 1024.0, 768.0 ],
 					"varname" : "screenBpatcher"
 				}
 
@@ -3540,10 +3559,37 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-164", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-166", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -3605,6 +3651,24 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "subScreen.maxpat",
@@ -3628,20 +3692,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Waterkoker.jpg",
-				"bootpath" : "/Users/markijzerman/Desktop/SoundsPack1",
-				"patcherrelativepath" : "../../../../../../Desktop/SoundsPack1",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "TrongCom.jpg",
-				"bootpath" : "/Users/markijzerman/Desktop/SoundsPack1",
-				"patcherrelativepath" : "../../../../../../Desktop/SoundsPack1",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "empty.jpg",
 				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
 				"patcherrelativepath" : "../media",
@@ -3653,6 +3703,13 @@
 				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "TrongCom.jpg",
+				"bootpath" : "/Users/markijzerman/Desktop/SoundsPack1",
+				"patcherrelativepath" : "../../../../../../Desktop/SoundsPack1",
+				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
