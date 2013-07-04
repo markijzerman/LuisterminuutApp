@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 406.0, 44.0, 1237.0, 956.0 ],
@@ -27,6 +28,64 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-135",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 4761.36377, 663.906189, 92.0, 20.0 ],
+					"text" : "opendialog fold"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-33",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4775.73877, 692.0, 105.0, 20.0 ],
+					"text" : "s LoadNewFolder"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Futura Medium",
+					"fontsize" : 13.0,
+					"frgb" : 0.0,
+					"id" : "obj-25",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4767.73877, 639.75, 128.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 472.920868, 1523.75, 128.0, 23.0 ],
+					"text" : "TEMP LOAD",
+					"textcolor" : [ 0.541176, 0.541176, 0.541176, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"handoff" : "",
+					"id" : "obj-142",
+					"maxclass" : "ubutton",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "", "int" ],
+					"patching_rect" : [ 4775.73877, 618.517334, 112.0, 54.232666 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 463.971771, 1513.0, 134.75, 42.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -416,50 +475,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 975.0, 408.0, 77.0, 18.0 ],
 					"text" : "ignoreclick 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-135",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 4738.0, 661.906189, 92.0, 20.0 ],
-					"text" : "opendialog fold"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-33",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4752.375, 690.0, 105.0, 20.0 ],
-					"text" : "s LoadNewFolder"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Futura Medium",
-					"fontsize" : 13.0,
-					"frgb" : 0.0,
-					"id" : "obj-25",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4744.375, 637.75, 128.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 457.920868, 1508.75, 128.0, 23.0 ],
-					"text" : "LAAD GELUIDEN...",
-					"textcolor" : [ 0.541176, 0.541176, 0.541176, 1.0 ]
 				}
 
 			}
@@ -1270,8 +1285,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 257.0, 332.0, 1328.0, 502.0 ],
@@ -3597,20 +3613,6 @@
 , 			{
 				"box" : 				{
 					"handoff" : "",
-					"id" : "obj-142",
-					"maxclass" : "ubutton",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 4752.375, 616.517334, 112.0, 54.232666 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 448.971771, 1498.0, 134.75, 42.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"handoff" : "",
 					"id" : "obj-26",
 					"maxclass" : "ubutton",
 					"numinlets" : 1,
@@ -5191,105 +5193,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "play(383x383).png",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "wwhtxt(152x56).png",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "empty.jpg",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
-				"patcherrelativepath" : "../media",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop(383x383).png",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "TrongCom.jpg",
-				"bootpath" : "/Users/markijzerman/Desktop/SoundsPack1",
-				"patcherrelativepath" : "../../../../../../Desktop/SoundsPack1",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "geluidenbieb(171x171).png",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pijlrechts(171x171).png",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pijllings(171x171).png",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sluiten(85x85).png",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vragen(171x171).png",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "geluiden(152x56).png",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vragentxt(152x56).png",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "antwoorden(171x171).png",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lm(152x56).png",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
- ]
+		"dependency_cache" : [  ]
 	}
 
 }

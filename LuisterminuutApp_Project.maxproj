@@ -2,7 +2,7 @@
 	"name" : "LuisterminuutApp_Project",
 	"version" : 1,
 	"creationdate" : -846150165,
-	"modificationdate" : -846056768,
+	"modificationdate" : -839245411,
 	"viewrect" : [ 25.0, 69.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -20,10 +20,15 @@
 				"local" : 1,
 				"toplevel" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/patchers/mainScreen.maxpat",
-					"projectrelativepath" : "./LuisterminuutApp_Project/patchers/mainScreen.maxpat"
+					"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/patchers",
+					"projectrelativepath" : "./patchers"
 				}
 
+			}
+,
+			"errorMessage.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
@@ -34,12 +39,17 @@
 				"local" : 1
 			}
 ,
+			"wwhtxt(152x56).png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"empty.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
 ,
-			"wwhtxt(152x56).png" : 			{
+			"stop(383x383).png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -80,11 +90,6 @@
 			}
 ,
 			"antwoorden(171x171).png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"stop(383x383).png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -137,12 +142,7 @@
 		"other" : 		{
 			"FuturaLT.ttf" : 			{
 				"kind" : "file",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Users/markijzerman/Downloads/Futura LT/FuturaLT.ttf",
-					"projectrelativepath" : "../../../../../Downloads/Futura LT/FuturaLT.ttf"
-				}
-
+				"local" : 1
 			}
 
 		}
