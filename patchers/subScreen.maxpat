@@ -31,6 +31,34 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-165",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5696.0, 626.0, 73.0, 20.0 ],
+					"text" : "fromsymbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5607.0, 626.0, 73.0, 20.0 ],
+					"text" : "fromsymbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-180",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -60,7 +88,7 @@
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
 					"fontname" : "Futura Medium",
-					"fontsize" : 20.0,
+					"fontsize" : 9.0,
 					"frgb" : 0.0,
 					"id" : "obj-2",
 					"ignoreclick" : 1,
@@ -69,9 +97,10 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5583.0, 646.0, 207.0, 119.0 ],
+					"patching_rect" : [ 5597.0, 713.0, 207.0, 119.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 879.710449, 3724.311523, 138.000031, 168.0 ],
+					"presentation_rect" : [ 879.710449, 3724.311523, 139.0, 168.0 ],
+					"readonly" : 1,
 					"tabmode" : 0,
 					"varname" : "credits"
 				}
@@ -690,7 +719,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5605.0, 626.0, 74.0, 20.0 ],
+					"patching_rect" : [ 5607.0, 661.017334, 74.0, 20.0 ],
 					"text" : "prepend set"
 				}
 
@@ -774,7 +803,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5696.0, 626.0, 74.0, 20.0 ],
+					"patching_rect" : [ 5696.0, 661.017334, 74.0, 20.0 ],
 					"text" : "prepend set"
 				}
 
@@ -1280,7 +1309,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 257.0, 332.0, 1328.0, 502.0 ],
+						"rect" : [ 333.0, 374.0, 1328.0, 502.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1299,7 +1328,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-11",
@@ -4000,6 +4028,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-216", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-165", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4364,7 +4401,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-216", 0 ],
+					"destination" : [ "obj-165", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-215", 1 ]
@@ -4409,7 +4446,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-221", 0 ],
+					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-220", 1 ]
@@ -4440,6 +4477,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-24", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-221", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -5212,6 +5258,13 @@
 				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "TrongCom.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/Soundpack",
+				"patcherrelativepath" : "../../Soundpack",
+				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
