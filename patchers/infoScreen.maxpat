@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 556.0, 204.0, 733.0, 659.0 ],
+		"rect" : [ 556.0, 204.0, 737.0, 661.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -143,8 +143,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 607.0, 168.0, 207.0, 18.0 ],
-					"text" : "window flags title, window exec, front"
+					"patching_rect" : [ 607.0, 168.0, 132.0, 18.0 ],
+					"text" : "window flags title, front"
 				}
 
 			}
