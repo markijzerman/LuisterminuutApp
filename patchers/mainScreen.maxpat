@@ -32,6 +32,34 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 564.662842, 192.0, 69.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"allwindowsactive" : 0,
+						"audiosupport" : 1,
+						"cantclosetoplevelpatchers" : 1,
+						"database" : 0,
+						"extensions" : 1,
+						"midisupport" : 0,
+						"noloadbangdefeating" : 0,
+						"overdrive" : 0,
+						"preffilename" : "Max 6 Preferences",
+						"searchformissingfiles" : 1,
+						"statusvisible" : 0,
+						"usesearchpath" : 0
+					}
+,
+					"text" : "standalone"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -3786,7 +3814,7 @@
 					"name" : "subScreen.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -27.0, -808.0 ],
+					"offset" : [ -27.0, -24.0 ],
 					"patching_rect" : [ 173.5, 332.688568, 1024.0, 768.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.102884, -2.434284, 1024.0, 768.0 ],
