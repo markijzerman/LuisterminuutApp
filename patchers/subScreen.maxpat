@@ -38,7 +38,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 4668.98877, 1315.506226, 300.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.954803, 1447.970215, 96.0, 36.0 ],
+					"presentation_rect" : [ 64.954803, 1447.970215, 96.0, 36.0 ],
 					"text" : "WEEK 6"
 				}
 
@@ -354,7 +354,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 4675.98877, 1139.90625, 300.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.954803, 1336.170166, 96.0, 36.0 ],
+					"presentation_rect" : [ 64.954803, 1336.170166, 96.0, 36.0 ],
 					"text" : "WEEK 5"
 				}
 
@@ -2844,7 +2844,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 4682.73877, 966.906189, 300.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.954803, 1228.901489, 96.0, 36.0 ],
+					"presentation_rect" : [ 64.954803, 1228.901489, 96.0, 36.0 ],
 					"text" : "WEEK 4"
 				}
 
@@ -2860,7 +2860,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 4682.73877, 736.906189, 300.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.954803, 1121.9021, 96.0, 36.0 ],
+					"presentation_rect" : [ 64.954803, 1121.9021, 96.0, 36.0 ],
 					"text" : "WEEK 3"
 				}
 
@@ -2876,7 +2876,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 4692.48877, 501.906158, 300.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.954803, 1015.260803, 96.0, 36.0 ],
+					"presentation_rect" : [ 64.954803, 1015.260803, 96.0, 36.0 ],
 					"text" : "WEEK 2"
 				}
 
@@ -2892,7 +2892,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 4692.48877, 288.906158, 300.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.954803, 907.942383, 96.0, 36.0 ],
+					"presentation_rect" : [ 64.954803, 907.942383, 96.0, 36.0 ],
 					"text" : "WEEK 1"
 				}
 
@@ -4272,6 +4272,19 @@
 					"patching_rect" : [ 137.100311, 74.791237, 153.799393, 217.348465 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.346775, 3135.721924, 1024.0, 768.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"id" : "obj-136",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 11.346775, 816.715576, 153.799393, 217.348465 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.346775, 789.0, 1024.0, 768.0 ]
 				}
 
 			}
