@@ -31,6 +31,56 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-180",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 6334.0, 570.0, 91.0, 20.0 ],
+					"text" : "s toPlayScreen"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"handoff" : "",
+					"id" : "obj-171",
+					"maxclass" : "ubutton",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "", "int" ],
+					"patching_rect" : [ 6306.455078, 405.163269, 146.090317, 137.316132 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 784.0, 3400.674316, 171.090317, 171.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autoscroll" : 0,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
+					"fontname" : "Futura Medium",
+					"fontsize" : 20.0,
+					"frgb" : 0.0,
+					"id" : "obj-2",
+					"ignoreclick" : 1,
+					"maxclass" : "textedit",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 5583.0, 646.0, 207.0, 119.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 879.710449, 3724.311523, 138.000031, 168.0 ],
+					"tabmode" : 0,
+					"varname" : "credits"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-135",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -51,23 +101,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 4775.73877, 692.0, 105.0, 20.0 ],
 					"text" : "s LoadNewFolder"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Futura Medium",
-					"fontsize" : 13.0,
-					"frgb" : 0.0,
-					"id" : "obj-25",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4767.73877, 639.75, 128.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 472.920868, 1523.75, 128.0, 23.0 ],
-					"text" : "TEMP LOAD",
-					"textcolor" : [ 0.541176, 0.541176, 0.541176, 1.0 ]
 				}
 
 			}
@@ -727,7 +760,8 @@
 					"patching_rect" : [ 5831.0, 569.517334, 442.0, 185.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 152.983124, 3705.811523, 726.727295, 192.0 ],
-					"tabmode" : 0
+					"tabmode" : 0,
+					"varname" : "description"
 				}
 
 			}
@@ -800,7 +834,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 6141.0, 399.163269, 146.090317, 137.316132 ],
+					"patching_rect" : [ 6092.0, 413.163269, 146.090317, 137.316132 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 70.0, 3400.674316, 171.219437, 171.0 ]
 				}
@@ -822,21 +856,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Futura Medium",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-205",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5605.0, 663.517334, 208.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 879.710449, 3782.811523, 151.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.61917,
 					"id" : "obj-206",
@@ -845,35 +864,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 6141.0, 558.517334, 62.0, 22.0 ],
 					"text" : "s toMain"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.716868,
-					"id" : "obj-207",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 6126.0, 288.0, 50.270752, 30.0 ],
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 15.2914,
-					"id" : "obj-208",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 6126.0, 327.606445, 147.0, 22.0 ],
-					"text" : "read backButton.jpg"
 				}
 
 			}
@@ -3558,19 +3548,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"id" : "obj-140",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 137.100311, 74.791237, 153.799393, 217.348465 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 4.346775, 3135.721924, 1024.0, 768.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"handoff" : "",
 					"id" : "obj-131",
 					"maxclass" : "ubutton",
@@ -3621,6 +3598,33 @@
 					"patching_rect" : [ 1695.248047, 338.1875, 282.0, 282.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 324.836029, 1764.542725, 383.021484, 383.06781 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autofit" : 1,
+					"id" : "obj-173",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 6312.0, 405.163269, 146.090317, 137.316132 ],
+					"pic" : "replay(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 784.0, 3400.674316, 171.090317, 171.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"id" : "obj-140",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 137.100311, 74.791237, 153.799393, 217.348465 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.346775, 3135.721924, 1024.0, 768.0 ]
 				}
 
 			}
@@ -3870,15 +3874,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-205", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-150", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-217", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4081,6 +4076,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-170", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-180", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-171", 0 ]
 				}
 
 			}
@@ -4324,24 +4328,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-208", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-207", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-210", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-208", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-206", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4432,7 +4418,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-205", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-221", 0 ]
@@ -5193,7 +5179,105 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "replay(383x383).png",
+				"bootpath" : "/Users/markijzerman/Library/Containers/com.sparrowmailapp.sparrow/Data/Library/Application Support/Sparrow/tmp/043A7575-CEC3-4FB4-BA48-C290A2C9FD85/CAPzOAxe1cKXbkGvj5OF7xp8CMDxMKAJTzWsNLnsEsr481EZmhQ@mail.gmail.com/0D4B6F8E-46FC-45B1-AB65-ED786A77FAF7",
+				"patcherrelativepath" : "../../../../../../Library/Containers/com.sparrowmailapp.sparrow/Data/Library/Application Support/Sparrow/tmp/043A7575-CEC3-4FB4-BA48-C290A2C9FD85/CAPzOAxe1cKXbkGvj5OF7xp8CMDxMKAJTzWsNLnsEsr481EZmhQ@mail.gmail.com/0D4B6F8E-46FC-45B1-AB65-ED786A77FAF7",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "play(383x383).png",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "wwhtxt(152x56).png",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "empty.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
+				"patcherrelativepath" : "../media",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stop(383x383).png",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "geluidenbieb(171x171).png",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pijlrechts(171x171).png",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pijllings(171x171).png",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sluiten(85x85).png",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vragen(171x171).png",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "geluiden(152x56).png",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vragentxt(152x56).png",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "antwoorden(171x171).png",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lm(152x56).png",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+ ]
 	}
 
 }

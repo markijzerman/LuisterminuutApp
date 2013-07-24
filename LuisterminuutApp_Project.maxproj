@@ -2,7 +2,7 @@
 	"name" : "LuisterminuutApp_Project",
 	"version" : 1,
 	"creationdate" : -846150165,
-	"modificationdate" : -839245411,
+	"modificationdate" : -837440475,
 	"viewrect" : [ 25.0, 69.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -37,6 +37,16 @@
 			"play(383x383).png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
+			}
+,
+			"replay(383x383).png" : 			{
+				"kind" : "imagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/markijzerman/Library/Containers/com.sparrowmailapp.sparrow/Data/Library/Application Support/Sparrow/tmp/043A7575-CEC3-4FB4-BA48-C290A2C9FD85/CAPzOAxe1cKXbkGvj5OF7xp8CMDxMKAJTzWsNLnsEsr481EZmhQ@mail.gmail.com/0D4B6F8E-46FC-45B1-AB65-ED786A77FAF7",
+					"projectrelativepath" : "../../../../../Library/Containers/com.sparrowmailapp.sparrow/Data/Library/Application Support/Sparrow/tmp/043A7575-CEC3-4FB4-BA48-C290A2C9FD85/CAPzOAxe1cKXbkGvj5OF7xp8CMDxMKAJTzWsNLnsEsr481EZmhQ@mail.gmail.com/0D4B6F8E-46FC-45B1-AB65-ED786A77FAF7"
+				}
+
 			}
 ,
 			"wwhtxt(152x56).png" : 			{
@@ -142,7 +152,12 @@
 		"other" : 		{
 			"FuturaLT.ttf" : 			{
 				"kind" : "file",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 
 		}
