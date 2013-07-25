@@ -556,11 +556,11 @@
 										"count" : 2,
 										"data" : [ 											{
 												"key" : 1,
-												"value" : [ 4 ]
+												"value" : [ 1 ]
 											}
 , 											{
 												"key" : 2,
-												"value" : [ "Macintosh HD:/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/Soundpack/" ]
+												"value" : [ "Macintosh HD:/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack_WIP/" ]
 											}
  ]
 									}
@@ -2328,11 +2328,11 @@
 										"count" : 2,
 										"data" : [ 											{
 												"key" : 1,
-												"value" : [ 4 ]
+												"value" : [ 1 ]
 											}
 , 											{
 												"key" : 2,
-												"value" : [ "Macintosh HD:/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/Soundpack/" ]
+												"value" : [ "Macintosh HD:/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack_WIP/" ]
 											}
  ]
 									}
@@ -3505,7 +3505,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-3",
-									"items" : [ "Waterkoker", ",", "Trống Cơm", ",", "Nee!", ",", "Op de Dijk" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3991,34 +3991,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Waterkoker.jpg",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/Soundpack",
-				"patcherrelativepath" : "../../Soundpack",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "TrongCom.jpg",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/Soundpack",
-				"patcherrelativepath" : "../../Soundpack",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Nee.jpg",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/Soundpack",
-				"patcherrelativepath" : "../../Soundpack",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dedijk.jpg",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/Soundpack",
-				"patcherrelativepath" : "../../Soundpack",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "empty.jpg",
 				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
 				"patcherrelativepath" : "../media",
@@ -4030,6 +4002,13 @@
 				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "TrongCom.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/Soundpack",
+				"patcherrelativepath" : "../../Soundpack",
+				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{

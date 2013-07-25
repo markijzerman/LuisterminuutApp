@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 556.0, 204.0, 737.0, 661.0 ],
+		"rect" : [ 556.0, 204.0, 595.0, 704.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,7 @@
 					"patching_rect" : [ 607.0, 466.0, 72.090317, 68.316132 ],
 					"pic" : "logo_mco.jpg",
 					"presentation" : 1,
-					"presentation_rect" : [ 394.0, 545.231934, 83.219437, 82.140701 ]
+					"presentation_rect" : [ 388.5, 602.231934, 83.219437, 82.140701 ]
 				}
 
 			}
@@ -51,7 +51,7 @@
 					"patching_rect" : [ 607.0, 383.0, 72.090317, 68.316132 ],
 					"pic" : "logo_soundlings.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 15.03685, 454.0, 361.219421, 173.372604 ]
+					"presentation_rect" : [ 9.536835, 511.0, 361.219421, 173.372604 ]
 				}
 
 			}
@@ -65,7 +65,7 @@
 					"patching_rect" : [ 607.0, 301.0, 72.090317, 68.316132 ],
 					"pic" : "logo_hku.jpg",
 					"presentation" : 1,
-					"presentation_rect" : [ 379.0, 454.0, 211.219421, 94.140701 ]
+					"presentation_rect" : [ 373.5, 511.0, 211.219421, 94.140701 ]
 				}
 
 			}
@@ -82,7 +82,7 @@
 					"patching_rect" : [ 99.03685, 306.127869, 437.0, 112.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 8.03685, 359.127869, 714.0, 86.0 ],
+					"presentation_rect" : [ 9.53685, 418.127869, 575.182556, 86.0 ],
 					"text" : "LUISTERMINUUT is een project geinitieerd door SOUNDLINGS, in een samenwerking met HKU, Hogeschool voor de Kunsten Utrecht en MCO EDUCATIE."
 				}
 
@@ -100,7 +100,7 @@
 					"patching_rect" : [ 97.03685, 232.127869, 437.0, 86.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 8.03685, 292.127869, 714.0, 59.0 ],
+					"presentation_rect" : [ 9.53685, 349.127869, 575.182556, 59.0 ],
 					"text" : "LUISTERMINUUT is losjes geinspireerd op het door Sound and Music geinitieerde Britse project \"Minute of Listening\"."
 				}
 
@@ -188,8 +188,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 129.0, 301.0, 437.0, 324.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 8,
-					"presentation_rect" : [ 8.03685, 90.127861, 717.0, 218.0 ],
+					"presentation_linecount" : 10,
+					"presentation_rect" : [ 9.53685, 93.356277, 578.182556, 271.0 ],
 					"text" : "LUISTERMINUUT is een initiatief dat ieder basisschoolkind in Nederland toegang wil geven tot een grote diversiteit aan muziek en geluid. Tijdens dit project luisteren basisschoolleerlingen elke dag 60 seconden geluid. Dit geluid loopt ver uiteen. Hierdoor wordt het actief luisteren bevorderd, discussie in de klas aangewakkerd en hun fantasie gestimuleerd. Ook is er aangetoond dat dit actief luisteren een positief effect heeft op de oplettendheid en het sociale functioneren.\r "
 				}
 
