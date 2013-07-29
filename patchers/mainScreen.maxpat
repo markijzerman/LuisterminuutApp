@@ -96,6 +96,47 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "open", "bang" ],
+									"patching_rect" : [ 27.0, 176.0, 54.0, 20.0 ],
+									"text" : "t open b"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 102.0, 227.0, 24.0, 20.0 ],
+									"text" : "t b"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 163.0, 260.0, 86.0, 20.0 ],
+									"text" : "s dbNotFound"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-3",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -114,22 +155,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 27.0, 305.0, 85.0, 20.0 ],
+									"patching_rect" : [ 27.0, 322.0, 85.0, 20.0 ],
 									"text" : "errorMessage"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-13",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 27.0, 175.0, 37.0, 18.0 ],
-									"text" : "open"
 								}
 
 							}
@@ -142,7 +169,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 27.0, 272.0, 53.0, 20.0 ],
+									"patching_rect" : [ 27.0, 289.0, 53.0, 20.0 ],
 									"text" : "pcontrol"
 								}
 
@@ -233,15 +260,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-13", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -260,10 +278,37 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-13", 0 ],
+									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 1 ]
 								}
 
 							}
@@ -556,11 +601,11 @@
 										"count" : 2,
 										"data" : [ 											{
 												"key" : 1,
-												"value" : [ 1 ]
+												"value" : [ 7 ]
 											}
 , 											{
 												"key" : 2,
-												"value" : [ "Macintosh HD:/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack_WIP/" ]
+												"value" : [ "Macintosh HD:/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack_WIPte/" ]
 											}
  ]
 									}
@@ -2328,11 +2373,11 @@
 										"count" : 2,
 										"data" : [ 											{
 												"key" : 1,
-												"value" : [ 1 ]
+												"value" : [ 7 ]
 											}
 , 											{
 												"key" : 2,
-												"value" : [ "Macintosh HD:/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack_WIP/" ]
+												"value" : [ "Macintosh HD:/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack_WIPte/" ]
 											}
  ]
 									}
@@ -3998,17 +4043,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "stop(383x383).png",
+				"name" : "ogendicht(383x383).png",
 				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "TrongCom.jpg",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/Soundpack",
-				"patcherrelativepath" : "../../Soundpack",
-				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{

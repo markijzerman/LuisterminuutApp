@@ -29,14 +29,115 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"id" : "obj-136",
-					"maxclass" : "panel",
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-245",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 572.340088, 255.0, 77.0, 18.0 ],
+					"presentation_rect" : [ 569.0, 255.0, 0.0, 0.0 ],
+					"text" : "ignoreclick 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-244",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 494.0, 255.0, 77.0, 18.0 ],
+					"text" : "ignoreclick 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-242",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 80.346771, 793.715576, 153.799393, 217.348465 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 4.346775, 789.0, 1024.0, 768.0 ]
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 429.0, 229.0, 60.0, 20.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-241",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 426.0, 255.0, 63.0, 18.0 ],
+					"presentation_rect" : [ 426.0, 255.0, 0.0, 0.0 ],
+					"text" : "alpha 255"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-240",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 363.0, 255.0, 50.0, 18.0 ],
+					"text" : "alpha 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-238",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 343.0, 221.0, 84.0, 20.0 ],
+					"text" : "r dbNotFound"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-237",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 3144.0, 393.0, 24.0, 20.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-234",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2755.355225, 398.051025, 159.0, 18.0 ],
+					"text" : "get Dolfijnenroep::questions"
 				}
 
 			}
@@ -852,6 +953,7 @@
 					"presentation_rect" : [ 152.983124, 3852.721924, 726.727295, 51.0 ],
 					"readonly" : 1,
 					"tabmode" : 0,
+					"text" : "Uit het archief van Geluid van Nederland",
 					"varname" : "credits"
 				}
 
@@ -893,7 +995,7 @@
 					"outlettype" : [ "bang", "bang", "", "int" ],
 					"patching_rect" : [ 4775.73877, 618.517334, 112.0, 54.232666 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 893.596802, 1515.0, 134.75, 42.0 ]
+					"presentation_rect" : [ 949.596802, 1534.0, 78.75, 23.0 ]
 				}
 
 			}
@@ -1091,10 +1193,11 @@
 			}
 , 			{
 				"box" : 				{
+					"automouse" : 0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"border" : 0,
 					"cols" : 1,
-					"colwidth" : 781,
+					"colwidth" : 996,
 					"fontname" : "Futura Medium",
 					"fontsize" : 30.0,
 					"grid" : 0,
@@ -1105,10 +1208,11 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 3116.355225, 451.0, 781.727295, 279.363647 ],
+					"patching_rect" : [ 3043.483154, 727.148682, 995.727295, 279.363647 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 125.483124, 2598.148682, 781.727295, 279.363647 ],
+					"presentation_rect" : [ 18.483124, 2598.148682, 995.727295, 279.363647 ],
 					"rowheight" : 40,
+					"rows" : 4,
 					"selmode" : 0,
 					"vscroll" : 0
 				}
@@ -1271,7 +1375,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 984.0, 368.0, 77.0, 18.0 ],
+					"patching_rect" : [ 975.0, 350.204468, 77.0, 18.0 ],
 					"text" : "ignoreclick 0"
 				}
 
@@ -1531,6 +1635,7 @@
 					"frgb" : 0.0,
 					"id" : "obj-217",
 					"ignoreclick" : 1,
+					"linecount" : 7,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -1538,8 +1643,10 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 5831.0, 569.517334, 442.0, 185.0 ],
 					"presentation" : 1,
+					"presentation_linecount" : 4,
 					"presentation_rect" : [ 152.983124, 3668.188965, 726.727295, 185.0 ],
 					"tabmode" : 0,
+					"text" : "Dit geluid hoor je waarschijnlijk wel vaker. Het zijn waterdruppels die in een emmer vallen waar al water inzit. Je hoort dat sommige druppels twee keer lijken te vallen, dit komt omdat er bij elke druppel die valt er ook weer water vanuit de emmer opstijgt en meteen weer neervalt.",
 					"varname" : "description"
 				}
 
@@ -2649,7 +2756,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1472.331299, 470.1875, 50.0, 31.0 ],
-					"text" : "\"Trống Cơm\""
+					"text" : "Waterdruppels"
 				}
 
 			}
@@ -2818,7 +2925,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5798.232422, 251.906158, 282.0, 282.0 ],
-					"pic" : "TrongCom.jpg",
+					"pic" : "waterdruppels.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ 324.836029, 3229.147705, 383.021484, 383.06781 ]
 				}
@@ -2945,7 +3052,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1695.248047, 301.1875, 282.0, 282.0 ],
-					"pic" : "stop(383x383).png",
+					"pic" : "ogendicht(383x383).png",
 					"presentation" : 1,
 					"presentation_rect" : [ 324.836029, 1764.542725, 383.021484, 383.06781 ]
 				}
@@ -4319,7 +4426,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 316.340118, 296.0, 333.0, 313.0 ],
+					"patching_rect" : [ 306.340118, 306.580383, 333.0, 313.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 320.709045, 198.215576, 383.491486, 383.0 ]
 				}
@@ -4343,6 +4450,7 @@
 				"box" : 				{
 					"handoff" : "",
 					"id" : "obj-26",
+					"ignoreclick" : 1,
 					"maxclass" : "ubutton",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -4390,6 +4498,19 @@
 					"patching_rect" : [ 37.547066, 59.791237, 153.799393, 217.348465 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.346775, 5.715576, 1024.0, 768.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"id" : "obj-136",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 80.346771, 793.715576, 153.799393, 217.348465 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.346775, 789.0, 1024.0, 768.0 ]
 				}
 
 			}
@@ -5048,6 +5169,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-237", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-190", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-195", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5336,6 +5466,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-161", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-234", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-233", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5354,10 +5493,91 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-177", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-237", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-240", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-238", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-245", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-238", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-86", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-24", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-101", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-240", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-101", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-241", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-241", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-242", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-244", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-242", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-131", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-244", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-131", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-245", 0 ]
 				}
 
 			}
@@ -6360,16 +6580,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "stop(383x383).png",
+				"name" : "ogendicht(383x383).png",
 				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "TrongCom.jpg",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/Soundpack",
-				"patcherrelativepath" : "../../Soundpack",
+				"name" : "waterdruppels.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack_WIP",
+				"patcherrelativepath" : "../../../SoundsPack_WIP",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
