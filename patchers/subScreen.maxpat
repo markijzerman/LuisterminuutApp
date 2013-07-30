@@ -29,6 +29,456 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-291",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 697.746948, 1320.136841, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 687.011047, 1415.890869, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-292",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 588.482788, 1320.136841, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 577.746948, 1415.890869, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-293",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 485.218903, 1322.136841, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 468.482788, 1415.890869, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-294",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 373.954803, 1318.136841, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 359.218903, 1415.890869, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-295",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1138.0, 1593.273682, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 249.954803, 1415.890869, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-286",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 697.746948, 1212.818359, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 687.011047, 1305.136841, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-287",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 588.482788, 1212.818359, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 577.746948, 1305.136841, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-288",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 485.218903, 1214.818359, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 468.482788, 1305.136841, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-289",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 373.954803, 1210.818359, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 359.218903, 1305.136841, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-290",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1138.0, 1485.9552, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 249.954803, 1305.136841, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-281",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 697.746948, 1105.499878, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 687.011047, 1197.818359, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-282",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 588.482788, 1105.499878, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 577.746948, 1197.818359, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-283",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 485.218903, 1107.499878, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 468.482788, 1197.818359, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-284",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 373.954803, 1103.499878, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 359.218903, 1197.818359, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-285",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1138.0, 1378.636719, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 249.954803, 1197.818359, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-255",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 697.746948, 998.181458, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 687.011047, 1090.499878, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-256",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 588.482788, 998.181458, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 577.746948, 1090.499878, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-257",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 485.218903, 1000.181458, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 468.482788, 1090.499878, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-258",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 373.954803, 996.181458, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 359.218903, 1090.499878, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-259",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1138.0, 1271.318359, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 249.954803, 1090.499878, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-250",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 697.746948, 890.863037, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 687.011047, 983.181458, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-251",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 588.482788, 890.863037, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 577.746948, 983.181458, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-252",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 485.218903, 892.863037, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 468.482788, 983.181458, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-253",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 373.954803, 888.863037, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 359.218903, 983.181458, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-254",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1138.0, 1164.0, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 249.954803, 983.181458, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-249",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 682.746948, 875.863037, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 687.011047, 875.863037, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-248",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 573.482788, 875.863037, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 577.746948, 875.863037, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-247",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 470.218903, 877.863037, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 468.482788, 875.863037, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-246",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 358.954803, 873.863037, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 359.218903, 875.863037, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alpha" : 0.4,
+					"autofit" : 1,
+					"id" : "obj-243",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1123.0, 1149.0, 100.0, 50.0 ],
+					"pic" : "play(383x383).png",
+					"presentation" : 1,
+					"presentation_rect" : [ 249.954803, 875.863037, 100.158676, 100.158676 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-245",
@@ -37,7 +487,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 572.340088, 255.0, 77.0, 18.0 ],
-					"presentation_rect" : [ 569.0, 255.0, 0.0, 0.0 ],
 					"text" : "ignoreclick 1"
 				}
 
@@ -80,7 +529,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 426.0, 255.0, 63.0, 18.0 ],
-					"presentation_rect" : [ 426.0, 255.0, 0.0, 0.0 ],
 					"text" : "alpha 255"
 				}
 
@@ -1635,7 +2083,6 @@
 					"frgb" : 0.0,
 					"id" : "obj-217",
 					"ignoreclick" : 1,
-					"linecount" : 7,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -1643,10 +2090,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 5831.0, 569.517334, 442.0, 185.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
 					"presentation_rect" : [ 152.983124, 3668.188965, 726.727295, 185.0 ],
 					"tabmode" : 0,
-					"text" : "Dit geluid hoor je waarschijnlijk wel vaker. Het zijn waterdruppels die in een emmer vallen waar al water inzit. Je hoort dat sommige druppels twee keer lijken te vallen, dit komt omdat er bij elke druppel die valt er ook weer water vanuit de emmer opstijgt en meteen weer neervalt.",
 					"varname" : "description"
 				}
 
@@ -6588,8 +7033,8 @@
 			}
 , 			{
 				"name" : "waterdruppels.jpg",
-				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack_WIP",
-				"patcherrelativepath" : "../../../SoundsPack_WIP",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
 				"type" : "JPEG",
 				"implicit" : 1
 			}

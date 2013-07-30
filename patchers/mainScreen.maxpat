@@ -601,11 +601,11 @@
 										"count" : 2,
 										"data" : [ 											{
 												"key" : 1,
-												"value" : [ 7 ]
+												"value" : [ 15 ]
 											}
 , 											{
 												"key" : 2,
-												"value" : [ "Macintosh HD:/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack_WIPte/" ]
+												"value" : [ "Macintosh HD:/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1/" ]
 											}
  ]
 									}
@@ -2373,11 +2373,11 @@
 										"count" : 2,
 										"data" : [ 											{
 												"key" : 1,
-												"value" : [ 7 ]
+												"value" : [ 15 ]
 											}
 , 											{
 												"key" : 2,
-												"value" : [ "Macintosh HD:/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack_WIPte/" ]
+												"value" : [ "Macintosh HD:/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1/" ]
 											}
  ]
 									}
@@ -2692,7 +2692,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-37",
-									"items" : "<empty>",
+									"items" : [ "Waterkoker", ",", "Trống Cơm", ",", "Transmissie", ",", "Antonin Dvorak", ",", "Nee", ",", "Helikopter", ",", "De Dijk", ",", "Louis Armstrong", ",", "Fluit", ",", "Tram", ",", "Anton Bruckner", ",", "Kalimba", ",", "Waterdruppels", ",", "Spinnende kat", ",", "Guiseppe Verdi", ",", "Verdragen", ",", "Vuurwerk", ",", "Chopin", ",", "Soapy Swing", ",", "Vuur", ",", "Nana", ",", "Steve Reich", ",", "Nachtegaal", ",", "Camille Saint-Saëns", ",", "Guitarra", ",", "Dolfijnenroep", ",", "Charles Mingus", ",", "Sprinkhanen", ",", "Igor Stravinsky", ",", "Meeuwen" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3550,7 +3550,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-3",
-									"items" : "<empty>",
+									"items" : [ "Waterkoker", ",", "Trống Cơm", ",", "Transmissie", ",", "Antonin Dvorak", ",", "Nee", ",", "Helikopter", ",", "De Dijk", ",", "Louis Armstrong", ",", "Fluit", ",", "Tram", ",", "Anton Bruckner", ",", "Kalimba", ",", "Waterdruppels", ",", "Spinnende kat", ",", "Guiseppe Verdi", ",", "Verdragen", ",", "Vuurwerk", ",", "Chopin", ",", "Soapy Swing", ",", "Vuur", ",", "Nana", ",", "Steve Reich", ",", "Nachtegaal", ",", "Camille Saint-Saëns", ",", "Guitarra", ",", "Dolfijnenroep", ",", "Charles Mingus", ",", "Sprinkhanen", ",", "Igor Stravinsky", ",", "Meeuwen" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -4036,6 +4036,104 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Waterkoker.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "TrongCom.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "transmissie.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Dvorak2.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Nee.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "helikopter.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dedijk.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LouisArmstrong.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluit.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Tram.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Bruckner4.JPG",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "kalimba.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "waterdruppels.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "inslaapvallendekat.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "empty.jpg",
 				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
 				"patcherrelativepath" : "../media",
@@ -4043,7 +4141,42 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ogendicht(383x383).png",
+				"name" : "verdragen.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vuurwerk.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Chopin.png",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soapyswing.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Vuur.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stop(383x383).png",
 				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
@@ -4110,6 +4243,76 @@
 				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/patch/LuisterminuutApp_Project/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "nana.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Reich.png",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Nachtegaal.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Saint-Saens.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "guitarra.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dolfijnenroep.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CharlesMingus.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sprinkhanen.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Stravinsky.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "meeuwen.jpg",
+				"bootpath" : "/Users/markijzerman/Documents/Projects/LUISTERMINUUT/SoundsPack1",
+				"patcherrelativepath" : "../../../SoundsPack1",
+				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
